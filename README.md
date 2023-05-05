@@ -1,5 +1,5 @@
 # Proyecto Help-I
-Este proyecto tiene como objetivo convertir una API monolítica a una arquitectura de microservicios utilizando Spring. El proyecto Hazel está dividido en varios microservicios interconectados que se comunican a través de una API Gateway.
+Este proyecto tiene como objetivo convertir una API monolítica a una arquitectura de microservicios utilizando Spring. El proyecto Help-I está dividido en varios microservicios interconectados que se comunican a través de una API Gateway.
 
 ## Características principales
 1. Conversión de una API monolítica a microservicios
@@ -18,7 +18,6 @@ Clonar el repositorio de Git:
 git clone https://github.com/Dino-Enterprises/Microservices.git
 Navegar al directorio del proyecto:
 
-Copy code
 docker-compose up
 Uso
 Una vez que los microservicios están en ejecución, se puede acceder a la API a través de la URL de la API Gateway: http://localhost:8080.
