@@ -8,14 +8,14 @@ Este proyecto tiene como objetivo convertir una API monolítica a una arquitectu
 4. Utilización de bases de datos distribuidas con Spring Data y Spring Cloud Config Server
 
 ## Requisitos previos
-Java 11 o superior
-Docker
-Maven
+- Java 11 o superior
+- Docker
+- Maven
 
 ## Instalación
 Clonar el repositorio de Git:
 
-git clone https://github.com/tu_usuario/proyecto-hazel.git
+git clone https://github.com/Dino-Enterprises/Microservices.git
 Navegar al directorio del proyecto:
 
 Copy code
