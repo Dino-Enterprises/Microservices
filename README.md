@@ -23,7 +23,12 @@ Uso
 Una vez que los microservicios están en ejecución, se puede acceder a la API a través de la URL de la API Gateway: http://localhost:8080.
 
 ## Autores
-- Breydi Ramos Terrones
+- Ramos Terrones, Breydi
+- Uriarte Delgado, Walter Erickson
+- Puga Ramos, Renato Marcelo
+- Castillo Rengifo, Renato Clotario	
+- Postigo Tuesta, Enrique Daniel	
+- Herrera Herrera, Willy Fernando
 
 ## Licencia
 Este proyecto está bajo la Licencia Help-I.
