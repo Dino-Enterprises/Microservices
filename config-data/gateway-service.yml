@@ -19,3 +19,7 @@ spring:
           uri: lb://profile-service
           predicates:
             - Path=/coaches/**
+        - id: payment-service
+          uri: lb://game-coin-service
+          predicates:
+            - Path=/game-coin-offers/**

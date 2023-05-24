@@ -1,4 +1,4 @@
-package com.coach;
+package com.game_coin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +9,13 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
 @SpringBootApplication
-@EnableFeignClients
 @EnableHystrix
 @EnableHystrixDashboard
-public class CoachApplication {
+@EnableFeignClients
+public class PaymentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoachApplication.class, args);
+		SpringApplication.run(PaymentApplication.class, args);
 	}
 
 }
