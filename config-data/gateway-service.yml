@@ -27,3 +27,7 @@ spring:
           uri: lb://game-service
           predicates:
             - Path=/games/**
+        - id: guide-management-service
+          uri: lb://guide-service
+          predicates:
+            - Path=/guides/**, /categories/**

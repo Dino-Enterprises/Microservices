@@ -1,4 +1,4 @@
-package com.game.config;
+package com.guide.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Game Management Microservice API")
+                .info(new Info().title("Guide Management Microservice API")
                         .description("Spring shop guide, session and reports application")
                         .version("v0.0.1")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
