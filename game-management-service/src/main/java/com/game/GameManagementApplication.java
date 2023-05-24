@@ -10,10 +10,10 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @SpringBootApplication
 @EnableHystrix
 @EnableHystrixDashboard
-public class GameApplication {
+public class GameManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GameApplication.class, args);
+		SpringApplication.run(GameManagementApplication.class, args);
 	}
 
 }
