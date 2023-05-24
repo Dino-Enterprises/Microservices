@@ -19,7 +19,6 @@
 	- guide management
 		a. guide
 		b. detail-guide
-		c. 
 
 	- sessions management
 		a. coaching-session
