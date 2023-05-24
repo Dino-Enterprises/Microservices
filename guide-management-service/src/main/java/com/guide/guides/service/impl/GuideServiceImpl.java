@@ -18,6 +18,7 @@ import com.guide.guides.repository.GuideRepository;
 import com.guide.guides.service.GuideService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -29,9 +30,11 @@ public class GuideServiceImpl implements GuideService {
     @Autowired
     private CategoryRepository categoryRepository;
 
+    @Qualifier("com.guide.guides.client.CoachClient")
     @Autowired
     private CoachClient coachClient;
 
+    @Qualifier("com.guide.guides.client.GameClient")
     @Autowired
     private GameClient gameClient;
 
