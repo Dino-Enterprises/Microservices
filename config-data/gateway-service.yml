@@ -23,3 +23,7 @@ spring:
           uri: lb://game-coin-service
           predicates:
             - Path=/game-coin-offers/**, /order-detail-game-coins/**, /order-game-coins/**, /detail-cards/**, /payments/**, /captures/**
+        - id: game-service
+          uri: lb://game-service
+          predicates:
+            - Path=/games/**
