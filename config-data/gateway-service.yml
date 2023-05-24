@@ -15,3 +15,7 @@ spring:
           uri: lb://security-service
           predicates:
             - Path=/users/**
+        - id: profile-service
+          uri: lb://profile-service
+          predicates:
+            - Path=/coaches/**
