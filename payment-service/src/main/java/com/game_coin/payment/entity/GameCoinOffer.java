@@ -1,4 +1,4 @@
-package com.game_coin.game_coin_offer.entity;
+package com.game_coin.payment.entity;
 
 import java.util.Date;
 

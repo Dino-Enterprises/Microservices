@@ -19,11 +19,11 @@ import org.mockito.Spy;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import com.game_coin.exception.ResourceNotFoundExceptionRequest;
-import com.game_coin.game_coin_offer.dto.GameCoinOfferRequest;
-import com.game_coin.game_coin_offer.dto.GameCoinOfferResponse;
-import com.game_coin.game_coin_offer.entity.GameCoinOffer;
-import com.game_coin.game_coin_offer.repository.GameCoinOfferRepository;
-import com.game_coin.game_coin_offer.service.impl.GameCoinServiceImpl;
+import com.game_coin.payment.dto.GameCoinOfferRequest;
+import com.game_coin.payment.dto.GameCoinOfferResponse;
+import com.game_coin.payment.entity.GameCoinOffer;
+import com.game_coin.payment.repository.GameCoinOfferRepository;
+import com.game_coin.payment.service.impl.GameCoinServiceImpl;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;

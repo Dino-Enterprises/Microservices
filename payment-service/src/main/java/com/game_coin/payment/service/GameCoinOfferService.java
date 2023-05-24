@@ -1,9 +1,9 @@
-package com.game_coin.game_coin_offer.service;
+package com.game_coin.payment.service;
 
 import java.util.List;
 
-import com.game_coin.game_coin_offer.dto.GameCoinOfferRequest;
-import com.game_coin.game_coin_offer.dto.GameCoinOfferResponse;
+import com.game_coin.payment.dto.GameCoinOfferRequest;
+import com.game_coin.payment.dto.GameCoinOfferResponse;
 
 public interface GameCoinOfferService {
 

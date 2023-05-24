@@ -1,10 +1,10 @@
-package com.game_coin.game_coin_offer.controller;
+package com.game_coin.payment.controller;
 
 import java.util.List;
 
-import com.game_coin.game_coin_offer.dto.GameCoinOfferRequest;
-import com.game_coin.game_coin_offer.dto.GameCoinOfferResponse;
-import com.game_coin.game_coin_offer.service.GameCoinOfferService;
+import com.game_coin.payment.dto.GameCoinOfferRequest;
+import com.game_coin.payment.dto.GameCoinOfferResponse;
+import com.game_coin.payment.service.GameCoinOfferService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

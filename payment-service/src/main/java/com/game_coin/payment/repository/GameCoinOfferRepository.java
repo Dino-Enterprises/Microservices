@@ -1,8 +1,8 @@
-package com.game_coin.game_coin_offer.repository;
+package com.game_coin.payment.repository;
 
 import java.util.Optional;
 
-import com.game_coin.game_coin_offer.entity.GameCoinOffer;
+import com.game_coin.payment.entity.GameCoinOffer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

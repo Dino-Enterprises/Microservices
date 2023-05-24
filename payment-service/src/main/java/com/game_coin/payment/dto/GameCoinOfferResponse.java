@@ -1,4 +1,4 @@
-package com.game_coin.game_coin_offer.dto;
+package com.game_coin.payment.dto;
 
 import java.util.Date;
 
@@ -8,7 +8,8 @@ import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 import lombok.Data;
 
 @Data
-public class GameCoinOfferRequest {
+public class GameCoinOfferResponse {
+    private Long id;
     private String image;
     private String name;
     private String description;
