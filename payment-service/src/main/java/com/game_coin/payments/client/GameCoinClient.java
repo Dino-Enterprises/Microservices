@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+//GameCoin interface
 @FeignClient(name = "payment-service", path = "/game-coin-offers", fallback = GameCoinHystrixFallbackFactory.class)
 public interface GameCoinClient {
     @GetMapping("/{id}")
