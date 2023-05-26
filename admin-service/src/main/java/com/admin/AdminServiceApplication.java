@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 
+/*Dedoradores de inicio de proyecto*/
 @SpringBootApplication
 @EnableAdminServer
 public class AdminServiceApplication {
