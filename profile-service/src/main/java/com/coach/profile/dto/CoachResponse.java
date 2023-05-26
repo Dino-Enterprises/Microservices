@@ -22,11 +22,7 @@ public class CoachResponse {
 
     private String description;
 
-    private String password;
-
-    private String email;
-
-    private String name;
+  
 
     private String number;
 
