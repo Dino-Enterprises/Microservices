@@ -11,6 +11,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+//Category model
 @Entity
 @Table(name = "tb_categories")
 @Data
