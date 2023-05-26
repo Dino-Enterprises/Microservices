@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-//customer interface .
+//UserClient interface .
 @FeignClient(name = "security-service", path = "/users", fallback = UserHystrixFallbackFactory.class)
 public interface UserClient {
     @GetMapping("/{id}")
