@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GameCoinHystrixFallbackFactory implements GameCoinClient {
-
+//valores predeterminados
     @Override
     public ResponseEntity<GameCoin> getById(Long id) {
         GameCoin gameCoin = new GameCoin();
