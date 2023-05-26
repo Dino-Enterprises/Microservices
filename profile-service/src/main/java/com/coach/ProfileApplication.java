@@ -7,6 +7,10 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * This is a Java Spring Boot application that enables Eureka client, Feign clients, Hystrix and
+ * Hystrix dashboard.
+ */
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients
