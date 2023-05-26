@@ -16,7 +16,11 @@ public class CoachResponse {
 
     private Long points;
 
+    private String username;
 
+    private String nameCoach;
+
+    private String description;
 
     private String password;
 
