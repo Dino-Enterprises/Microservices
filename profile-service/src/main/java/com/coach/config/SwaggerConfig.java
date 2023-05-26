@@ -7,19 +7,18 @@ import io.swagger.v3.oas.models.info.License;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
-
+// Swagger
 @Configuration
 public class SwaggerConfig {
-    @Bean
-    public OpenAPI springShopOpenAPI() {
-        return new OpenAPI()
-                .info(new Info().title("Profile Microservice API")
-                        .description("Spring shop guide, session and reports application")
-                        .version("v0.0.1")
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org")))
-                .externalDocs(new ExternalDocumentation()
-                        .description("SpringShop Wiki Documentation")
-                        .url("https://springshop.wiki.github.org/docs"));
-    }
+        @Bean
+        public OpenAPI springShopOpenAPI() {
+                return new OpenAPI()
+                                .info(new Info().title("Profile Microservice API")
+                                                .description("Spring shop guide, session and reports application")
+                                                .version("v0.0.1")
+                                                .license(new License().name("Apache 2.0").url("http://springdoc.org")))
+                                .externalDocs(new ExternalDocumentation()
+                                                .description("SpringShop Wiki Documentation")
+                                                .url("https://springshop.wiki.github.org/docs"));
+        }
 }
