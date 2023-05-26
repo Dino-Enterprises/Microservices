@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Data;
 
+// Dto Simple CoachResponse
 @Data
 public class CoachResponseSimple {
     private String nameCoach;
