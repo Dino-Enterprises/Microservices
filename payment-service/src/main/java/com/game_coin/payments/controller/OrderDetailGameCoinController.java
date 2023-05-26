@@ -14,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/order-detail-game-coins")
+//Detallado
 public class OrderDetailGameCoinController {
 
     @Autowired
