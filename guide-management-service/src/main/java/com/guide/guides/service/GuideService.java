@@ -6,6 +6,7 @@ import com.guide.guides.dto.GuideRequest;
 import com.guide.guides.dto.GuideResponse;
 import com.guide.guides.dto.CoachGuideResponse;
 
+// Service to implement in Guide
 public interface GuideService {
     List<GuideResponse> getAll();
 
