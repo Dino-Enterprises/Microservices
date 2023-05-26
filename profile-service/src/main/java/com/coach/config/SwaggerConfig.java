@@ -1,4 +1,4 @@
-package com.user.config;
+package com.coach.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -8,12 +8,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
+
 @Configuration
 public class SwaggerConfig {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Security Microservice API")
+                .info(new Info().title("Profile Microservice API")
                         .description("Spring shop guide, session and reports application")
                         .version("v0.0.1")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
@@ -22,4 +23,3 @@ public class SwaggerConfig {
                         .url("https://springshop.wiki.github.org/docs"));
     }
 }
-
