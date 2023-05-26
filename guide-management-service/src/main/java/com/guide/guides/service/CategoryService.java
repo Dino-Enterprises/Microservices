@@ -5,6 +5,7 @@ import java.util.List;
 import com.guide.guides.dto.CategoryRequest;
 import com.guide.guides.dto.CategoryResponse;
 
+// Service to implement in Category
 public interface CategoryService {
     List<CategoryResponse> getAll();
 
