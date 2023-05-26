@@ -7,6 +7,7 @@ import com.coach.profile.dto.CoachRequest;
 import com.coach.profile.dto.CoachResponse;
 import com.coach.profile.dto.CoachResponseSimple;
 
+// Service to implement in Coach
 public interface CoachService {
     List<CoachResponse> getAll();
 

@@ -16,6 +16,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// Coach model
 @Entity
 @Table(name = "tb_coach")
 @Data
