@@ -6,6 +6,10 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Data;
 
+/**
+ * This is a Java class representing a coach response object with various properties such as ID,
+ * points, username, name, description, password, email, number, created date, birthday, and game ID.
+ */
 @Data
 public class CoachResponse {
     private Long id;
