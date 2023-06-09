@@ -5,7 +5,7 @@
 	- payment
 		a. game-coin
 		b. order-game-coin
-		c. order-guide
+		c. order-guide -> falta
 		d. checkout
 		e. capture
 
@@ -18,13 +18,12 @@
 
 	- guide management
 		a. guide
-		b. detail-guide
-		c. 
+		b. detail-guide -> falta
 
-	- sessions management
+	- sessions management -> falta
 		a. coaching-session
 
-	- reports
+	- reports -> falta
 		a. coach-report
 
 -> SOPORTE
