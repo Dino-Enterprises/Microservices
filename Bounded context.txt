@@ -18,12 +18,12 @@
 
 	- guide management
 		a. guide
-		b. detail-guide -> falta
+		b. detail-guide
 
-	- sessions management -> falta
+	- sessions management
 		a. coaching-session
 
-	- reports -> falta
+	- reports
 		a. coach-report
 
 -> SOPORTE

@@ -35,3 +35,7 @@ spring:
           uri: lb://coaching-session-service
           predicates:
             - Path=/platforms/**, /sessions/**
+        - id: coach-report-service
+          uri: lb://coach-report-service
+          predicates:
+            - Path=/coach-documents/**, /coach-reports/**
