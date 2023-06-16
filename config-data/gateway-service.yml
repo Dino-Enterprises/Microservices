@@ -31,3 +31,7 @@ spring:
           uri: lb://guide-service
           predicates:
             - Path=/guides/**, /categories/**, /detail-guides/**
+        - id: coaching-session-service
+          uri: lb://coaching-session-service
+          predicates:
+            - Path=/platforms/**, /sessions/**
