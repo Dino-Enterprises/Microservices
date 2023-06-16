@@ -1,0 +1,11 @@
+docker create --name config-service-container --network microservices-network --ip 172.18.0.2 -p 8081:8081 profet15746/config-service-image
+docker create --name registry-service-container-02 --network microservices-network --ip 172.18.0.3 -p 8099:8099 profet15746/registry-service-image
+docker create --name admin-service-container --network microservices-network --ip 172.18.0.4 -p 8086:8086 profet15746/admin-service-image
+docker create --name gateway-service-container-02 --network microservices-network --ip 172.18.0.5 -p 8080:8080 profet15746/gateway-service-image
+docker create --name security-service-container --network microservices-network --ip 172.18.0.6 -p 8098:8098 profet15746/security-service-image
+docker create --name profile-service-container --network microservices-network --ip 172.18.0.7 -p 8092:8092 profet15746/profile-service-image
+docker create --name payment-service-container --network microservices-network --ip 172.18.0.8 -p 8094:8094 profet15746/payment-service-image
+docker create --name game-management-service-container --network microservices-network --ip 172.18.0.9 -p 8119:8119 profet15746/game-management-service-image
+docker create --name guide-management-service-container --network microservices-network --ip 172.18.0.10 -p 8095:8095 profet15746/guide-management-service-image
+docker create --name coaching-session-service-image --network microservices-network --ip 172.18.0.11 -p 8102:8102 profet15746/coaching-session-service-image
+docker create --name coach-report-service-image --network microservices-network --ip 172.18.0.12 -p 8101:8101 profet15746/coach-report-service-image
