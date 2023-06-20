@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: guide-management-service
+  cloud:
+    config:
+      uri: http://172.18.0.2:8081
+      username: root
+      password: s3cr3t
+  boot:
+    admin:
+      client:
+        url: http://172.18.0.4:8086

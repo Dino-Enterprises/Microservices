@@ -13,7 +13,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("User Microservice API")
+                .info(new Info().title("Security Microservice API")
                         .description("Spring shop guide, session and reports application")
                         .version("v0.0.1")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
