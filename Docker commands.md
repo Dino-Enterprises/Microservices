@@ -117,3 +117,34 @@ docker run --network dino-enterprise-microservice-network --ip 172.18.0.11 -p 81
 ```
 docker run --network dino-enterprise-microservice-network --ip 172.18.0.12 -p 8101:8101 -d profet15746/coach-report-service-image
 ```
+
+-----------------------------------------------------------
+### In case we need images do this steps.
+- Make images
+- In this case we are deloping in Java 17
+- Download Java 17 JDK
+- Check a succesful download.
+  ```
+  java --version
+  ```
+- Enter to the API directory with cmd and execute.
+```
+gradlew.bat build
+```
+- Now we have our `build/libs` to create our image in our specific file.
+```
+docker buildx build -o <output_path> <input_path>
+docker buildx build -o . ./config-service
+
+docker buildx build -o ./1 admin-service
+docker buildx build -o ./2 coach-report-service 
+docker buildx build -o ./3 coaching-session-service
+docker buildx build -o ./4 config-service
+docker buildx build -o ./5 game-management-service
+docker buildx build -o ./6 gateway-service
+docker buildx build -o ./7 guide-management-service
+docker buildx build -o ./8 payment-service
+docker buildx build -o ./9 registry-service
+docker buildx build -o ./10 security-service
+docker buildx build -o ./11 admin-service
+```
